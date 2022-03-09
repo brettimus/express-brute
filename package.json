@@ -1,6 +1,6 @@
 {
-  "name": "express-brute",
-  "version": "1.0.1",
+  "name": "@reaqta/express-brute",
+  "version": "1.0.2",
   "description": "A brute-force protection middleware for express routes that rate limits incoming requests",
   "keywords": [
     "brute",
@@ -12,14 +12,13 @@
     "limit",
     "security"
   ],
-  "license": "BSD",
-  "private": false,
+  "license": "MIT",
   "scripts": {
     "test": "./node_modules/.bin/istanbul cover ./node_modules/mocha/bin/_mocha spec"
   },
   "repository": {
     "type": "git",
-    "url": "git@github.com:AdamPflug/express-brute.git"
+    "url": "git@github.com:brettimus/express-brute.git"
   },
   "devDependencies": {
     "chai": "~3.5.0",
@@ -32,7 +31,7 @@
   },
   "dependencies": {
     "long-timeout": "~0.1.1",
-    "underscore": "~1.8.3"
+    "underscore": "^1.8.3"
   },
   "peerDependencies": {
     "express": "4.x"
